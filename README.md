@@ -11,7 +11,7 @@
 - Text Editor (Visual Studio Code recommended)
 
 ### Apa yang anda kerjakan :
-- Fork repository pada link berikut [https://github.com/global-institute/UAS-PCCKS-2022.git](https://github.com/global-institute/UAS-PCCKS-2022.git)
+- Fork repository ini dengan meng klik pada link berikut [https://github.com/global-institute/UAS-PCCKS-2022.git](https://github.com/global-institute/UAS-PCCKS-2022/fork)
 - Clone repository yang sudah anda fork ke local pc anda
 `$ git clone [url-git-anda.git]`
 - Ubah beberapa hal berikut :
