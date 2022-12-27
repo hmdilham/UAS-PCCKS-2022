@@ -12,4 +12,4 @@ jobs:
         docker build -t dheaimilia/uas-pccks:latest -f Dockerfile .
     
     - name: push to dockerhub
-      run: docker login -u ${{secrets.dheaimilia}} -p ${{dckr_pat_jjeCnyfLUbaOKERFv-DvJX4-CUg}} && docker push dheaimilia/uas-pccks:latest
+      run: docker login -u ${{secrets.DOCKERHUB_ORG_USERNAME}} -p ${{secrets.DOCKERHUB_ORG_SECRET}} && docker push dheaimilia/uas-pccks:latest
